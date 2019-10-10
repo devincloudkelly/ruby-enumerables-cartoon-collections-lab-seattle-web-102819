@@ -22,16 +22,6 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if !array.include?(cheese_types)
-    return nil
-  else 
-   puts "Need to figure this part out"
-   # use .detect or .find to print the first item that matches.
-   array.find do |element|
-    i = 0 
-    while i < array.length
-    element == array[i]
-    i += 1
-  end
- 
+  i = 0
+  
 end
